@@ -15,7 +15,7 @@ data class Part(val text: String?)
 object SentimentAnalyzer
 {
     private val client = OkHttpClient()
-    private const val API_URL = "http://192.168.133.1:5000/predict"
+    private const val API_URL = "http://10.0.2.2:5000/predict"
 
     fun analyzeSentiment(text: String, callback: (String) -> Unit)
     {

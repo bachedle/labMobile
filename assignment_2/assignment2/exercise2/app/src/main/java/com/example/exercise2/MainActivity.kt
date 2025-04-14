@@ -1,3 +1,5 @@
+
+Bạn đã gửi
 package com.example.exercise2
 
 import android.graphics.Color
@@ -68,17 +70,17 @@ class MainActivity : AppCompatActivity()
 
         when (lowerSentiment)
         {
-            "POS" -> {
+            "pos" -> {
                 backgroundColor = Color.GREEN
                 emojiRes = R.drawable.happy
             }
 
-            "NEU" -> {
+            "neu" -> {
                 backgroundColor = Color.YELLOW
                 emojiRes = R.drawable.neutral
             }
 
-            "NEG" -> {
+            "neg" -> {
                 backgroundColor = Color.RED
                 emojiRes = R.drawable.sad
             }
